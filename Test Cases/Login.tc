@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User melakukan login dengan username dan password yang sesuai</description>
+   <name>Login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8de51f44-0eb5-4c1e-a195-5f92c21b974d</testCaseGuid>
+</TestCaseEntity>

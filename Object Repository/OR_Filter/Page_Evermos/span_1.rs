@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_1</name>
+   <tag></tag>
+   <elementGuidId>752c6f48-58ed-4c1f-9c9d-6f2068328b5f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__layout']/div/div[3]/div/div[2]/div/div[3]/label[19]/span/span/i/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__layout&quot;)/div[@class=&quot;appLayout&quot;]/div[3]/div[@class=&quot;productFilter&quot;]/div[@class=&quot;appDrawer&quot;]/div[@class=&quot;appDrawer__wrapper&quot;]/div[@class=&quot;scroll-y&quot;]/label[@class=&quot;flex px-24 py-12 fs-14 lh-20&quot;]/span[@class=&quot;checkInput&quot;]/span[@class=&quot;checkInput__icon&quot;]/i[@class=&quot;checkInput__icon__uncheck&quot;]/span[1]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__layout']/div/div[3]/div/div[2]/div/div[3]/label[19]/span/span/i/span</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//label[19]/span/span/i/span</value>
+   </webElementXpaths>
+</WebElementEntity>
