@@ -17,19 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-not_run: WebUI.openBrowser('')
-
-not_run: WebUI.navigateToUrl('https://evermos.com/home/')
-
-not_run: WebUI.click(findTestObject('Object Repository/OR_Memilih barang ke keranjang/Page_Evermos Reseller online dan aplikasi D_3b84c7/a_Masuk'))
-
-not_run: WebUI.setText(findTestObject('Object Repository/OR_Login/Page_Masuk  Login Sebagai Reseller Evermos/input_Nomor Telepon_inputText__input'), 
-    '6281223334444')
-
-not_run: WebUI.setEncryptedText(findTestObject('Object Repository/OR_Memilih barang ke keranjang/Page_Masuk  Login Sebagai Reseller Evermos/input_Kata Sandi_inputText__input'), 
-    '8SQVv/p9jVScEs4/2CZsLw==')
-
-not_run: WebUI.click(findTestObject('Object Repository/OR_Memilih barang ke keranjang/Page_Masuk  Login Sebagai Reseller Evermos/button_Masuk'))
+'dibuat disable untuk running test suites, jika akan digunakan klik ctrl +alt + /'
+not_run: WebUI.callTestCase(findTestCase('Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/OR_Memilih barang ke keranjang/Page_Evermos - Katalog/span_Jualan apa sekarang'))
 
